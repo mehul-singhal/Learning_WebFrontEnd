@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Example</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+	background-image:url("1.jpg");
+}
+div.container{
+	width:100%;
+	border:1px solid grey;
+}
+
+header{
+	padding:1em;
+	clear:left;
+	color:white;
+	background-color:#93C9DB;
+	text-align:center;
+}
+
+nav{
+	padding:1em;
+	max-width:170px;
+	margin:0;
+	float:left;
+}
+
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+
+nav ul a{
+	text-decoration:underline;
+}
+
+div.form{
+	margin-left:170px;
+	border-left:1px solid grey;
+	padding:170px;
+	overflow:hidden;
+}
+
+div.footer{
+	padding:1em;
+	clear:left;
+	color:white;
+	background-color:#93C9DB;
+	text-align:center;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<header><h1>Personal Information</h1></header>
+		<nav>
+			<ul>
+				<li><a href=#home>Home</a></li>
+				<li><a href=#Test>Test</a></li>
+				<li><a href=#about>About</a></li>
+			</ul>
+		</nav>
+		<div class="form">
+		<form>
+			<fieldset>
+				<legend>Personal Information:</legend>
+				First Name:<br>
+				<input type="text" name="FirstName"><br>
+				Last Name:<br>
+				<input type="text" name="LastName"><br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+		</div>
+		<div class="footer">
+		<footer>Copyright &copy; Mehul Singhal</footer>
+		<i class="material-icons">cloud</i>
+		<i class="material-icons">favorite</i>
+		<i class="material-icons">attachment</i>
+		<i class="material-icons">computer</i>
+		<i class="material-icons">traffic</i>
+		</div>
+	</div>	
+</body>
+</html>
